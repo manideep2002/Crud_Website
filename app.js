@@ -4,9 +4,9 @@ const User = require('./models/user');
 
 const app = express();
 
-
+const port=process.env.PORT || 3000;
 mongoose.connect("mongodb+srv://manideep:manideep@cluster0.skjcugx.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }) 
-  .then((result) =>{ console.log("Database-connected"); app.listen(3000)})
+  .then((result) =>{ console.log("Database-connected"); app.listen(port)})
   .catch(err => console.log(err)); //else errors will be shown
 
 
