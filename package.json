@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^6.12.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "nodejs-mongodb-crud-main",
+  "description": "-In this repository, I have created CRUD operation sites using Nodejs as backend with Nosql database.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
